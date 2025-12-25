@@ -69,7 +69,15 @@ def reverse_arr(arr):
     end=end-1
     return arr
 
-print(reverse_arr([1,2,3,4]))
+
+# fibonnaci using recursion
+def fib(n):
+    if n<=1:
+        return n
+    return fib(n-1)+fib(n-2)
+
+print(fib(5))
+
     
 
 
